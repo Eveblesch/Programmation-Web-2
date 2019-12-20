@@ -1,0 +1,71 @@
+body{
+	background-color: #CCCCCC;
+}
+
+#sidenav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: black;
+}
+
+#sidenav li a {
+  display: block;
+  color: #000;
+  text-decoration: none;
+}
+
+#sidenav li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/****************************/
+/*NAVIGATION HORIZONTALE*/
+.horiznav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding-right:30px;
+  background-color: #333;
+  margin-bottom: 15px;
+}
+
+.horiznav li {
+  float: right;
+}
+
+.horiznav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  margin-top: 15px;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+
+}
+footer li a {
+  display: inline-block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+  width: 100%;
+
+}

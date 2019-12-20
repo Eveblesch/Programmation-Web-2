@@ -1,0 +1,29 @@
+body{
+	background-color: #f8e3cb;
+}
+
+li{
+  text-decoration: none;
+  list-style: none;
+  margin-bottom: 3px;
+  margin-left:20px;
+
+
+}
+
+
+ul{
+  text-decoration: none;
+  font-size:17px;
+
+}
+a{
+	text-decoration: none;
+
+}
+
+h1{
+	font-size: 50px;
+	margin-left:40px;
+	color:#b23b3b;
+}

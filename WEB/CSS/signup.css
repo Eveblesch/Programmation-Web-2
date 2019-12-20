@@ -1,0 +1,60 @@
+body{
+  background-image: url("../images/fond.jpg");
+}
+
+h1{
+ margin: 0 auto;
+ margin-left:40px;
+  font-family: Times New Roman;
+}
+input{
+  width:40%;
+  padding:10px;
+  padding-right:30px;
+ margin: 0 auto;
+  font-size: 15px;
+  display: block; 
+  border-radius: 8px;
+  border:3px #AAA solid;
+  font-family: Times New Roman;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+.container {
+  
+  box-shadow: 2px 2px 8px 8px;
+  margin: 0 auto;
+  margin-top : 30px;
+  padding-top:15px;
+  width: 350px;
+  height: 370px;
+  background-color: grey;
+  opacity: 0.8;
+  border-radius: 8px;
+}
+
+button{
+  margin-top: 8px;
+  padding: 10px 20px 10px 20px;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: Times New Roman;
+  border-radius: 8px 0px 8px 0px; 
+  background-color: #FF8000;
+  margin-left: 130px;
+
+}
+
+button:hover{
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19);
+  background-color:#DBA901;
+}
+
+
+
+  
+
+

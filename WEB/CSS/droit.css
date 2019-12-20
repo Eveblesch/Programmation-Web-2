@@ -1,0 +1,173 @@
+body{
+	background-color: #f8e3cb;
+}
+
+header{
+  text-align: center;
+  font-size: 40px;
+}
+
+a{
+  text-decoration: none;
+  color: blue;
+
+}
+/*------NAGIVATION VERTICALE------*/
+
+#sidenav{
+  height: auto;
+  background-color: #b23b3b;
+  width:170px;
+  float:left;
+}
+#sidenav ul {
+  list-style-type: none;
+  text-decoration: none;
+  padding-left:10px;
+  margin: 0;
+  padding-top:10px;
+  padding-bottom: 10px;
+  font-size:17px;
+}
+
+#sidenav li a {
+  display: block;
+  text-decoration: none;
+  padding-left : 20px;
+  color:#5F3535;
+}
+
+#sidenav li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+/*---------MENU VERTICAL--------*/
+
+.horiznav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b23b3b;
+  padding-right:30px;
+}
+
+.horiznav li {
+  float: right;
+}
+
+.horiznav li a {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding:10px 10px 10px 10px;
+  text-decoration: none;
+  
+}
+
+.horiznav li a:hover {
+  background-color: #333;
+
+}
+
+
+/*----FOOTER-----*/
+footer{
+  margin-top:30px;
+}
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #b23b3b;
+  padding-right:30px;
+}
+
+footer li {
+  float: right;
+}
+footer li a{
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding:10px 10px 10px 10px;
+  text-decoration: none;
+  
+}
+
+/*-------ZONE DE COMMENTAIRES------*/
+
+.commentaires{
+  margin-top:15px;
+  border: 2px solid black;
+  padding: 10px;
+  width: 410px;
+  margin-left: 500px;
+
+}
+
+textarea{
+
+  border-radius: 5px;
+  margin-top:30px;
+  padding-top:5px;
+  background-color: #e3e3e3;
+}
+
+li{
+  list-style: none;
+  
+}
+
+button{
+  width:100px;
+  margin-bottom: 4px;
+  padding:10px; 
+  border-radius: 4px;
+  border:2px #AAA solid;
+  font-family: Times New Roman;
+}
+
+button:hover{
+  box-shadow: 0 8px 8px 0 rgba(0,0,0,0.24), 0 10px 30px 0 rgba(0,0,0,0.19);
+  background-color:#ddd;
+}
+.cmt
+{
+  border: 2px solid black;
+  padding: 10px;
+  margin-bottom: 4px;
+  background-color: #e3e3e3;
+  border-radius: 4px;
+
+}
+
+.bouton{
+  padding:5px 5px 5px 5px;
+}
+
+/*---------Etoiles-----------*/
+.etoiles a {
+
+   color: #aaa;
+   text-decoration: none;
+   font-size: 3em;
+   transition: color .4s;
+}
+.etoiles a:hover,
+.etoiles a:focus {
+   color: orange;
+   cursor: pointer;
+}
+
+
+#ok{
+  color:green;
+  margin-left:22px;
+}
+#pasOk{
+  color:red;
+  margin-left:24px;
+}
